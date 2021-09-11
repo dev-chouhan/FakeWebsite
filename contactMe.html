@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <h1>Contact me</h1>
+    <p style="font-size: 300; font-family: monospace;">My frictional Address</p>
+    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> <b> Phone Number</b>:
+        01125552555</p>
+    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> <b> Email id</b>:
+        CatchMeIfYouCan@gmail.com</p>
+
+    <!--*---------------------------------------- Creating Form  -->
+    <hr style="width: 50%; height: 3px; background-color: black; color: black; margin-left: 300px;">
+    <form class="" action="./index.html" method="POST" enctype="text/plain">
+        <!-- action takes us back to described page after clicking submit  -->
+        <!--? action="mailto:info@londonappbrewery.com" === this will open email directly -->
+        <!-- enctype used with action to simplify email use -->
+        <label for="text">Your Name: </label>
+        <input type="text" name="yourName" value="">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="yourEmail" id="">
+        <br>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="">
+        <br>
+        <br>
+        <label for="message">Your Message: </label>
+        <textarea name="yourMessage" id="" cols="30" rows="10"
+            style="margin: 0px; width: 389px; height: 35px;">Type your Message Here...</textarea>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+    <font size="50px"> <a href="./FormSubmittion.html">Fill This Form Plz</a> </font>
+</body>
+
+</html>
